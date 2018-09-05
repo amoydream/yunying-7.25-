@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+    <link rel="stylesheet" href="lib/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/consumption.css">
+    <script src="lib/juqery/jquery-3.1.1.min.js"></script>
+    <script src="lib/juqery/jquery.cookie.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/consumption.js"></script>
+    <title>消费记录</title>
+</head>
+<body>
+<div class="container">
+    <div class="consumption_head">
+        <a href="javascript:history.back(-1);" class="left iconfont icon-zuojiantou"></a>
+        消费记录
+    </div>
+    <div class="consumption_body">
+
+    </div>
+</div>
+<script type="text/html" id="record">
+    {{each data v i}}
+    <div class="body_item">
+        <p class="item_time">{{data[i].payTime}} <span class="item_status">{{data[i].status===2?'成功':'失败'}}</span></p>
+        <p class="item_details">{{data[i].goods.name}}  <span class="details_right">{{data[i].realPrice}}</span></p>
+    </div>
+    {{/each}}
+</script>
+<script src="lib/template-web.js"></script>
+</body>
+</html>

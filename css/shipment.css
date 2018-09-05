@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 581px) {
+  html {
+    font-size: 38.73px;
+  }
+}
+@media (min-width: 620px) {
+  html {
+    font-size: 41.33px;
+  }
+}
+@media (min-width: 660px) {
+  html {
+    font-size: 44px;
+  }
+}
+@media (min-width: 690px) {
+  html {
+    font-size: 46px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+li {
+  list-style: none;
+}
+body,
+html {
+  background: white;
+}
+.container {
+  width: 100%;
+  max-width: 750px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: white;
+}
+body,
+html {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  padding-top: 6rem;
+  background: #F3F3F3;
+}
+.await {
+  text-align: center;
+  font-size: 0.72rem;
+  color: #450643;
+}
+.await .cartoon {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  background: #eab803;
+  margin: 0.4rem auto;
+  border-radius: 50%;
+  text-align: left;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+.await .cartoon .comma {
+  display: inline-block;
+  animation: myturn linear 1s infinite;
+  overflow: hidden;
+  vertical-align: middle;
+}
+@keyframes myturn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 0.6rem;
+  }
+}
+.success {
+  text-align: center;
+  font-size: 0.72rem;
+  color: #450643;
+}
+.success p {
+  padding-top: 0.4rem;
+}
+.error {
+  text-align: center;
+  font-size: 0.72rem;
+  color: #ff2c47;
+}
+.error p {
+  padding-top: 0.4rem;
+}
+/*# sourceMappingURL=shipment.css.map */

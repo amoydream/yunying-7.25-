@@ -1,0 +1,190 @@
+@import "common";
+
+.head {
+  width: 100%;
+  height: 100rem/@num;
+  padding: 0 20rem/@num;
+  box-sizing: border-box;
+  line-height: 100rem/@num;
+  position: relative;
+  .left {
+    font-size: 54rem/@num;
+    color: #b2b2b2;
+    float: left;
+    width: 10%;
+  }
+  .name {
+    float: left;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+  }
+  .right {
+    float: right;
+    width: 10%;
+    font-size: 46rem/@num;
+  }
+}
+
+//产品图片
+.detail {
+  width: 100%;
+  background: white;
+  text-align: center;
+  position: relative;
+  .product-photo {
+    width: 90%;
+    border-bottom: 1px solid #cccccc;
+    margin: 0 auto;
+    img {
+      width: 400rem/@num;
+    }
+  }
+  .price {
+    position: absolute;
+    padding: 0 30rem/@num;
+    right: 4%;
+    bottom: 20rem/@num;
+    color: #ff2c47;
+    font-size: 32rem/@num;
+  }
+  .product-label{
+    position: absolute;
+    width: 150rem/@num;
+    height: 80rem/@num;
+    line-height: 80rem/@num;
+    background: #5001a8;
+    top: 10rem/@num;
+    left: 20rem/@num;
+    border-radius: 15rem/@num;
+    color: white;
+    font-size: 32rem/@num;
+  }
+}
+
+//信息
+.info {
+  padding-left: 40rem/@num;
+  p {
+    height: 60rem/@num;
+    line-height: 50rem/@num;
+    vertical-align: middle;
+    span {
+      font-size: 34rem/@num;
+    }
+  }
+}
+
+//广告
+.advertising {
+  background: #f9f9f9;
+  width: 100%;
+  padding: 40rem/@num;
+  box-sizing: border-box;
+  margin-bottom: 160rem/@num;
+  img {
+    width: 100%;
+    border-radius: 15rem/@num;
+  }
+}
+
+//底部
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150rem/@num;
+  border-top: 1px solid #cccccc;
+  display: flex;
+  box-sizing: border-box;
+  background: white;
+  > div {
+    flex: 1;
+  }
+  .choose {
+    line-height: 150rem/@num;
+    padding-left: 50rem/@num;
+    .minus {
+      float: left;
+      font-size: 50rem/@num;
+      color: #ff2c47;
+    }
+    .num {
+      float: left;
+      padding: 0 20rem/@num;
+      font-size: 36rem/@num;
+      width: 40rem/@num;
+      text-align: center;
+    }
+    .add {
+      float: left;
+      font-size: 48rem/@num;
+      color: #ff2c47;
+    }
+  }
+  .check {
+    font-size: 36rem/@num;
+    line-height: 150rem/@num;
+    padding-left: 30rem/@num;
+    span {
+      color: #ff2c47;
+    }
+  }
+  .buy {
+    background: linear-gradient(to right, #ff5d3e, #fe2f49);
+    color: white;
+    line-height: 150rem/@num;
+    font-size: 36rem/@num;
+    text-align: center;
+  }
+  .draw{
+    background: linear-gradient(to right, #5001A8, #3C0679);
+    color: white;
+    line-height: 150rem/@num;
+    font-size: 36rem/@num;
+    text-align: center;
+  }
+}
+
+//操作
+.handle {
+  position: absolute;
+  width: 350rem/@num;
+  height: 500rem/@num;
+  right: 10rem/@num;
+  top: 100rem/@num;
+  z-index: 999;
+  background: rgba(0, 0, 0, .8);
+  border-radius: 15rem/@num;
+  text-align: center;
+  display: none;
+  .user-name {
+    width: 100rem/@num;
+    border-radius: 50%;
+    margin-top: 20rem/@num;
+  }
+  .consume{
+    color: white;
+    font-size: 36rem/@num;
+    text-align: left;
+    padding-left: 20%;
+    span {
+      font-size: 40rem/@num;
+      padding-right: 20rem/@num;
+    }
+  }
+  .triangle {
+    z-index: -1;
+    position: absolute;
+    border-left: 30rem/@num solid white;
+    border-right: 30rem/@num solid white;
+    border-bottom: 30rem/@num solid rgba(0, 0, 0, .8);
+    top: -30rem/@num;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+}
+
+.handle.show {
+  display: block;
+}

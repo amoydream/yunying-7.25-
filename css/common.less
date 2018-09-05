@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.adapter(@deviceWidth) {
+  @media (min-width: @deviceWidth) {
+    html {
+      font-size: round(@deviceWidth/15, 2);
+    }
+  }
+}
+
+@num: 50;
+.adapter(320px);
+.adapter(360px);
+.adapter(375px);
+.adapter(384px);
+.adapter(400px);
+.adapter(414px);
+.adapter(424px);
+.adapter(480px);
+.adapter(540px);
+.adapter(581px);
+.adapter(620px);
+.adapter(660px);
+.adapter(690px);
+.adapter(720px);
+.adapter(750px);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,li{
+  list-style: none;
+}
+
+body, html {
+  background: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 750px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: white;
+}

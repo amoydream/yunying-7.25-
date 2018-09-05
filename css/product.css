@@ -1,0 +1,277 @@
+@charset "UTF-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 581px) {
+  html {
+    font-size: 38.73px;
+  }
+}
+@media (min-width: 620px) {
+  html {
+    font-size: 41.33px;
+  }
+}
+@media (min-width: 660px) {
+  html {
+    font-size: 44px;
+  }
+}
+@media (min-width: 690px) {
+  html {
+    font-size: 46px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+li {
+  list-style: none;
+}
+body,
+html {
+  background: white;
+}
+.container {
+  width: 100%;
+  max-width: 750px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: white;
+}
+.head {
+  width: 100%;
+  height: 2rem;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+  line-height: 2rem;
+  position: relative;
+}
+.head .left {
+  font-size: 1.08rem;
+  color: #b2b2b2;
+  float: left;
+  width: 10%;
+}
+.head .name {
+  float: left;
+  width: 80%;
+  text-align: center;
+  font-weight: 500;
+}
+.head .right {
+  float: right;
+  width: 10%;
+  font-size: 0.92rem;
+}
+.detail {
+  width: 100%;
+  background: white;
+  text-align: center;
+  position: relative;
+}
+.detail .product-photo {
+  width: 90%;
+  border-bottom: 1px solid #cccccc;
+  margin: 0 auto;
+}
+.detail .product-photo img {
+  width: 8rem;
+}
+.detail .price {
+  position: absolute;
+  padding: 0 0.6rem;
+  right: 4%;
+  bottom: 0.4rem;
+  color: #ff2c47;
+  font-size: 0.64rem;
+}
+.detail .product-label {
+  position: absolute;
+  width: 3rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  background: #5001a8;
+  top: 0.2rem;
+  left: 0.4rem;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 0.64rem;
+}
+.info {
+  padding-left: 0.8rem;
+}
+.info p {
+  height: 1.2rem;
+  line-height: 1rem;
+  vertical-align: middle;
+}
+.info p span {
+  font-size: 0.68rem;
+}
+.advertising {
+  background: #f9f9f9;
+  width: 100%;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  margin-bottom: 3.2rem;
+}
+.advertising img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  border-top: 1px solid #cccccc;
+  display: flex;
+  box-sizing: border-box;
+  background: white;
+}
+.foot > div {
+  flex: 1;
+}
+.foot .choose {
+  line-height: 3rem;
+  padding-left: 1rem;
+}
+.foot .choose .minus {
+  float: left;
+  font-size: 1rem;
+  color: #ff2c47;
+}
+.foot .choose .num {
+  float: left;
+  padding: 0 0.4rem;
+  font-size: 0.72rem;
+  width: 0.8rem;
+  text-align: center;
+}
+.foot .choose .add {
+  float: left;
+  font-size: 0.96rem;
+  color: #ff2c47;
+}
+.foot .check {
+  font-size: 0.72rem;
+  line-height: 3rem;
+  padding-left: 0.6rem;
+}
+.foot .check span {
+  color: #ff2c47;
+}
+.foot .buy {
+  background: linear-gradient(to right, #ff5d3e, #fe2f49);
+  color: white;
+  line-height: 3rem;
+  font-size: 0.72rem;
+  text-align: center;
+}
+.foot .draw {
+  background: linear-gradient(to right, #5001A8, #3C0679);
+  color: white;
+  line-height: 3rem;
+  font-size: 0.72rem;
+  text-align: center;
+}
+.handle {
+  position: absolute;
+  width: 7rem;
+  height: 10rem;
+  right: 0.2rem;
+  top: 2rem;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.3rem;
+  text-align: center;
+  display: none;
+}
+.handle .user-name {
+  width: 2rem;
+  border-radius: 50%;
+  margin-top: 0.4rem;
+}
+.handle .consume {
+  color: white;
+  font-size: 0.72rem;
+  text-align: left;
+  padding-left: 20%;
+}
+.handle .consume span {
+  font-size: 0.8rem;
+  padding-right: 0.4rem;
+}
+.handle .triangle {
+  z-index: -1;
+  position: absolute;
+  border-left: 0.6rem solid white;
+  border-right: 0.6rem solid white;
+  border-bottom: 0.6rem solid rgba(0, 0, 0, 0.8);
+  top: -0.6rem;
+  left: 70%;
+  transform: translateX(-50%);
+}
+.handle.show {
+  display: block;
+}
+/*# sourceMappingURL=product.css.map */

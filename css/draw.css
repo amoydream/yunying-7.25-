@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 26.67px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 28.27px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media (min-width: 581px) {
+  html {
+    font-size: 38.73px;
+  }
+}
+@media (min-width: 620px) {
+  html {
+    font-size: 41.33px;
+  }
+}
+@media (min-width: 660px) {
+  html {
+    font-size: 44px;
+  }
+}
+@media (min-width: 690px) {
+  html {
+    font-size: 46px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+li {
+  list-style: none;
+}
+body,
+html {
+  background: white;
+}
+.container {
+  width: 100%;
+  max-width: 750px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: white;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #5001a8;
+}
+.draw_head {
+  text-align: center;
+  color: #eab803;
+}
+.left {
+  color: white;
+  padding-left: 0.4rem;
+}
+.iconfont {
+  font-size: 1rem !important;
+}
+.big_box {
+  background-size: 100% 100%;
+  width: 100%;
+  position: relative;
+  height: 200px;
+}
+.big_box .start {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #eab803;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: red;
+  border-radius: 10px;
+}
+.box {
+  width: 12rem;
+  height: 100px;
+  display: flex;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  border: 10px solid #eab803;
+  border-radius: 7px;
+}
+.box .item {
+  flex: 1;
+  border: 1px solid #eab803;
+  overflow: hidden;
+}
+.box .item ul {
+  transform: translateY(-500px);
+}
+.box .item li {
+  height: 100px;
+}
+.box .item:first-child {
+  border-right: 0;
+}
+.box .item:last-child {
+  border-left: 0;
+}
+.box .item img {
+  width: 100%;
+  height: 100%;
+}
+.activity {
+  background: #eab803;
+  color: #ff2c47;
+  padding: 0.4rem;
+  width: 85%;
+  border-radius: 15px;
+  margin: 0 auto;
+  font-size: 0.64rem;
+}
+.activity h3 {
+  text-align: center;
+}
+.draw_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.draw_modal > div {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: #ff2c47;
+}
+/*# sourceMappingURL=draw.css.map */

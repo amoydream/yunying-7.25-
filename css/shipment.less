@@ -1,0 +1,61 @@
+@import "common";
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  padding-top: 300rem/@num;
+  background: #F3F3F3;
+}
+
+.await {
+  text-align: center;
+  font-size: 36rem/@num;
+  color: #450643;
+  .cartoon {
+    width: 200rem/@num;
+    height: 200rem/@num;
+    line-height: 200rem/@num;
+    background: #eab803;
+    margin: 20rem/@num auto;
+    border-radius: 50%;
+    text-align: left;
+    padding:0 20rem/@num;
+    box-sizing: border-box;
+    .comma {
+      display: inline-block;
+      animation: myturn linear 1s infinite;
+      overflow: hidden;
+      vertical-align: middle;
+    }
+    @keyframes myturn {
+      0% {
+        width: 0;
+      }
+      100% {
+       width: 30rem/@num;
+      }
+    }
+  }
+
+}
+
+.success {
+  text-align: center;
+  font-size: 36rem/@num;
+  color: #450643;
+  p{
+    padding-top: 20rem/@num;
+  }
+}
+
+.error {
+  text-align: center;
+  font-size: 36rem/@num;
+  color: #ff2c47;
+  p{
+    padding-top: 20rem/@num;
+  }
+}

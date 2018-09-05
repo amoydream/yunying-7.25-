@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable=no"/>
+    <title>抽奖</title>
+    <link rel="stylesheet" href="css/draw.css">
+    <link rel="stylesheet" href="lib/iconfont/iconfont.css">
+    <script src="lib/juqery/jquery-3.1.1.min.js"></script>
+    <script src="lib/juqery/jquery.cookie.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/draw.js"></script>
+</head>
+<body>
+<div class="container">
+    <a href="javascript:history.back(-1)" class="left iconfont icon-fanhuitianchong"></a>
+    <div class="draw_head">
+        天天赢大奖
+    </div>
+    <div class="big_box">
+        <div class="box">
+            <div class="item one">
+                <ul>
+                    <li><img src="images/0.jpg" alt="" class="product"></li>
+                    <li><img src="images/1.jpg" alt=""></li>
+                    <li><img src="images/2.jpg" alt=""></li>
+                    <li><img src="images/3.jpg" alt=""></li>
+                    <li><img src="images/4.jpg" alt=""></li>
+                    <li><img src="images/0.jpg" alt="" class="product"></li>
+                </ul>
+            </div>
+            <div class="item two">
+                <ul>
+                    <li><img src="images/0.jpg" alt="" class="product"></li>
+                    <li><img src="images/1.jpg" alt=""></li>
+                    <li><img src="images/2.jpg" alt=""></li>
+                    <li><img src="images/3.jpg" alt=""></li>
+                    <li><img src="images/4.jpg" alt=""></li>
+                    <li><img src="images/0.jpg" alt="" class="product"></li>
+                </ul>
+            </div>
+            <div class="item three">
+                <ul>
+                    <li><img src="images/0.jpg" alt="" class="product"></li>
+                    <li><img src="images/1.jpg" alt=""></li>
+                    <li><img src="images/2.jpg" alt=""></li>
+                    <li><img src="images/3.jpg" alt=""></li>
+                    <li><img src="images/4.jpg" alt=""></li>
+                    <li><img src="images/0.jpg" alt="" class="product"></li>
+                </ul>
+            </div>
+        </div>
+        <button class="start">一元抽奖</button>
+    </div>
+
+    <div class="activity">
+        <h3>活动规则</h3>
+        <p>1、活动期间，单笔投资金九盈产品大于等于1000元即可获得2次抽奖机会，每日每人最多可获得2次抽奖机会；当日未使用的抽奖机会。第二日作废；</p>
+        <p>2、如获得利息券，加息券直接发送至“我的福利”；</p>
+    </div>
+    <div class="draw_modal" style="display: none">
+        <!--中奖-->
+        <div class="win" style="display: none">
+            恭喜您中奖啦
+        </div>
+        <div class="loser">
+            很遗憾，什么都没有！
+        </div>
+    </div>
+</div>
+</body>
+</html>
